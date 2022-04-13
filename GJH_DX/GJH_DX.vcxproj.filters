@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="AppMain.cpp" />
+    <ClCompile Include="GJHGameUpdater.cpp">
+      <Filter>Updater</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MapEditorScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MapEditorWindow.cpp">
+      <Filter>GUI\MapEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHGlobalAppWindow.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectBase.cpp">
+      <Filter>ContentLogic\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>ContentLogic\Actor\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerState.cpp">
+      <Filter>ContentLogic\Actor\Player\State</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaySceneWindow.cpp">
+      <Filter>GUI\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerSlash.cpp">
+      <Filter>ContentLogic\Actor\Player\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderingWindow.cpp">
+      <Filter>GUI\RenderingWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1.cpp">
+      <Filter>Scene\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="StageBase.cpp">
+      <Filter>Scene\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterBase.cpp">
+      <Filter>ContentLogic\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage2.cpp">
+      <Filter>Scene\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage3.cpp">
+      <Filter>Scene\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage4.cpp">
+      <Filter>Scene\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage5.cpp">
+      <Filter>Scene\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Gate.cpp">
+      <Filter>ContentLogic\Actor\Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage6.cpp">
+      <Filter>Scene\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="SlashFlow.cpp">
+      <Filter>ContentLogic\Actor\Player\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectBase.cpp">
+      <Filter>ContentLogic\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="InstanceObject.cpp">
+      <Filter>ContentLogic\Actor\Instance</Filter>
+    </ClCompile>
+    <ClCompile Include="Door.cpp">
+      <Filter>ContentLogic\Actor\Door</Filter>
+    </ClCompile>
+    <ClCompile Include="AStarManager.cpp">
+      <Filter>ContentLogic\Astar</Filter>
+    </ClCompile>
+    <ClCompile Include="Pomp.cpp">
+      <Filter>ContentLogic\Actor\Monster\Pomp</Filter>
+    </ClCompile>
+    <ClCompile Include="Grunt.cpp">
+      <Filter>ContentLogic\Actor\Monster\Grunt</Filter>
+    </ClCompile>
+    <ClCompile Include="Cop.cpp">
+      <Filter>ContentLogic\Actor\Monster\Cop</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterBullet.cpp">
+      <Filter>ContentLogic\Actor\Monster\MonsterBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="ShieldCop.cpp">
+      <Filter>ContentLogic\Actor\Monster\ShieldCop</Filter>
+    </ClCompile>
+    <ClCompile Include="HeadHunter1.cpp">
+      <Filter>ContentLogic\Actor\Monster\Boss\Phase1</Filter>
+    </ClCompile>
+    <ClCompile Include="HeadHunter2.cpp">
+      <Filter>ContentLogic\Actor\Monster\Boss\Phase2</Filter>
+    </ClCompile>
+    <ClCompile Include="LaserLine.cpp">
+      <Filter>ContentLogic\Actor\Monster\Boss\Phase2\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser.cpp">
+      <Filter>ContentLogic\Actor\Monster\Boss\Phase2\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="HeadHunter2_State.cpp">
+      <Filter>ContentLogic\Actor\Monster\Boss\Phase2\State</Filter>
+    </ClCompile>
+    <ClCompile Include="HeadHunter2_Hit1_State.cpp">
+      <Filter>ContentLogic\Actor\Monster\Boss\Phase2\State</Filter>
+    </ClCompile>
+    <ClCompile Include="HeadHunter2_Hit2_State.cpp">
+      <Filter>ContentLogic\Actor\Monster\Boss\Phase2\State</Filter>
+    </ClCompile>
+    <ClCompile Include="KnifeDashLine.cpp">
+      <Filter>ContentLogic\Actor\Monster\Boss\Phase2\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Grenade.cpp">
+      <Filter>ContentLogic\Actor\Monster\Boss\Phase2\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss2SceneWindow.cpp">
+      <Filter>GUI\BossScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Spectrum.cpp">
+      <Filter>ContentLogic\Actor\Spectrum</Filter>
+    </ClCompile>
+    <ClCompile Include="SpectrumCom.cpp">
+      <Filter>ContentLogic\Actor\Spectrum</Filter>
+    </ClCompile>
+    <ClCompile Include="UIManager.cpp">
+      <Filter>ContentLogic\Actor\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseCursor.cpp">
+      <Filter>ContentLogic\Actor\Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="EndingScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Updater">
+      <UniqueIdentifier>{2fb06464-cf34-4666-ba02-909d325aa90b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ContentLogic">
+      <UniqueIdentifier>{81527336-1caa-461c-bb09-d6f1d6bd7386}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Value">
+      <UniqueIdentifier>{3a618aa1-6c62-456d-91e4-9f9bd20e0dc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{9f3ee1c3-c229-4ad1-ae3c-4b34c18e0e76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{dd187d78-2b61-4771-83b5-e77018cd3167}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\MapEditor">
+      <UniqueIdentifier>{d422e854-da6a-4ede-9cff-fb83efd1cdc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ContentLogic\Actor">
+      <UniqueIdentifier>{a28de63f-75ef-415a-9785-3da54079b97f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ContentLogic\Actor\Player">
+      <UniqueIdentifier>{e860c49e-6cea-4d9d-b32f-55431b467d5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ContentLogic\Actor\Player\State">
+      <UniqueIdentifier>{3913e21c-019b-4872-b648-932922ea7916}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\PlayScene">
+      <UniqueIdentifier>{ecd7935d-8580-45a7-914f-1df5b4ad08fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ContentLogic\Actor\Player\Effect">
+      <UniqueIdentifier>{87e6347c-3b5d-4451-9da6-edb749c8ff84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\RenderingWindow">
+      <UniqueIdentifier>{bb1e16b3-f5a4-4a67-a224-74f03ddec21b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Stage">
+      <UniqueIdentifier>{539cd05d-362d-4f81-ae4c-75dfa4060521}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ContentLogic\Actor\Monster">
+      <UniqueIdentifier>{e939ebc1-dad9-48f8-a5f4-ee214d37cfbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ContentLogic\Actor\Etc">
+      <UniqueIdentifier>{13721cb4-828f-44f9-a922-21768773ac5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ContentLogic\Actor\Instance">
+      <UniqueIdentifier>{6a337378-be45-42ba-8133-aa24617a7d56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ContentLogic\Actor\Door">
+      <UniqueIdentifier>{8f150d54-f71b-49b3-b6ec-42fd79df799c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ContentLogic\Astar">
+      <UniqueIdentifier>{b027a05c-103f-4791-81ab-7c9b4b4c7ad8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ContentLogic\Actor\Monster\Pomp">
+      <UniqueIdentifier>{f2d929cc-8292-4d35-982a-f487db0885b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ContentLogic\Actor\Monster\Grunt">
+      <UniqueIdentifier>{13646b7c-5ad0-4e25-b51a-57cd6e5676b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ContentLogic\Actor\Monster\Cop">
+      <UniqueIdentifier>{6c24fca0-ca3d-449c-8bd8-fe0f1738a0a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ContentLogic\Actor\Monster\MonsterBullet">
+      <UniqueIdentifier>{06a63b8d-e998-414d-ab0f-6ba92275c87b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ContentLogic\Actor\Monster\ShieldCop">
+      <UniqueIdentifier>{630438a1-7989-4bf3-b939-cddca87fcc4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ContentLogic\Actor\Monster\Boss">
+      <UniqueIdentifier>{bf08aa0d-7c91-48a4-a55e-d37009d32a0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ContentLogic\Actor\Monster\Boss\Phase1">
+      <UniqueIdentifier>{6ba3e9a4-97ba-4b5b-b9a2-3b526a35e337}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ContentLogic\Actor\Monster\Boss\Phase2">
+      <UniqueIdentifier>{ae120dfa-adfd-4151-b1ea-e25c6d58e504}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ContentLogic\Actor\Monster\Boss\Phase2\Effect">
+      <UniqueIdentifier>{534856bc-7255-4cc9-8fc4-ff85b9920dc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ContentLogic\Actor\Spectrum">
+      <UniqueIdentifier>{d7a3798d-3f48-4186-9a17-c23eca129460}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ContentLogic\Actor\Monster\Boss\Phase2\State">
+      <UniqueIdentifier>{df79b8a3-cb39-4fa1-bb63-4fdd6af1ac14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\BossScene">
+      <UniqueIdentifier>{2eca9c11-305e-42ad-b14e-91d812d743e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ContentLogic\Actor\UI">
+      <UniqueIdentifier>{7d2694dd-fe9b-41f5-9c11-64d764e42d3c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GJHGameUpdater.h">
+      <Filter>Updater</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h" />
+    <ClInclude Include="LogicValue.h">
+      <Filter>Value</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MapEditorScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MapEditorWindow.h">
+      <Filter>GUI\MapEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHGlobalAppWindow.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectBase.h">
+      <Filter>ContentLogic\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>ContentLogic\Actor\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaySceneWindow.h">
+      <Filter>GUI\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerSlash.h">
+      <Filter>ContentLogic\Actor\Player\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderingWindow.h">
+      <Filter>GUI\RenderingWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1.h">
+      <Filter>Scene\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="StageBase.h">
+      <Filter>Scene\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterBase.h">
+      <Filter>ContentLogic\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage2.h">
+      <Filter>Scene\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage3.h">
+      <Filter>Scene\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage4.h">
+      <Filter>Scene\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage5.h">
+      <Filter>Scene\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Gate.h">
+      <Filter>ContentLogic\Actor\Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage6.h">
+      <Filter>Scene\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="SlashFlow.h">
+      <Filter>ContentLogic\Actor\Player\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectBase.h">
+      <Filter>ContentLogic\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="InstanceObject.h">
+      <Filter>ContentLogic\Actor\Instance</Filter>
+    </ClInclude>
+    <ClInclude Include="Door.h">
+      <Filter>ContentLogic\Actor\Door</Filter>
+    </ClInclude>
+    <ClInclude Include="AStarManager.h">
+      <Filter>ContentLogic\Astar</Filter>
+    </ClInclude>
+    <ClInclude Include="Pomp.h">
+      <Filter>ContentLogic\Actor\Monster\Pomp</Filter>
+    </ClInclude>
+    <ClInclude Include="Grunt.h">
+      <Filter>ContentLogic\Actor\Monster\Grunt</Filter>
+    </ClInclude>
+    <ClInclude Include="Cop.h">
+      <Filter>ContentLogic\Actor\Monster\Cop</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterBullet.h">
+      <Filter>ContentLogic\Actor\Monster\MonsterBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="ShieldCop.h">
+      <Filter>ContentLogic\Actor\Monster\ShieldCop</Filter>
+    </ClInclude>
+    <ClInclude Include="HeadHunter1.h">
+      <Filter>ContentLogic\Actor\Monster\Boss\Phase1</Filter>
+    </ClInclude>
+    <ClInclude Include="HeadHunter2.h">
+      <Filter>ContentLogic\Actor\Monster\Boss\Phase2</Filter>
+    </ClInclude>
+    <ClInclude Include="LaserLine.h">
+      <Filter>ContentLogic\Actor\Monster\Boss\Phase2\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Laser.h">
+      <Filter>ContentLogic\Actor\Monster\Boss\Phase2\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="KnifeDashLine.h">
+      <Filter>ContentLogic\Actor\Monster\Boss\Phase2\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Grenade.h">
+      <Filter>ContentLogic\Actor\Monster\Boss\Phase2\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss2SceneWindow.h">
+      <Filter>GUI\BossScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Spectrum.h">
+      <Filter>ContentLogic\Actor\Spectrum</Filter>
+    </ClInclude>
+    <ClInclude Include="SpectrumCom.h">
+      <Filter>ContentLogic\Actor\Spectrum</Filter>
+    </ClInclude>
+    <ClInclude Include="UIManager.h">
+      <Filter>ContentLogic\Actor\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseCursor.h">
+      <Filter>ContentLogic\Actor\Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="EndingScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

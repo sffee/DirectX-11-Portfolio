@@ -1,0 +1,32 @@
+﻿  FW1Precompiled.cpp
+  CFW1ColorRGBA.cpp
+  CFW1ColorRGBAInterface.cpp
+  CFW1DWriteRenderTarget.cpp
+  CFW1DWriteRenderTargetInterface.cpp
+  CFW1Factory.cpp
+  CFW1FactoryInterface.cpp
+  CFW1FontWrapper.cpp
+  CFW1FontWrapperInterface.cpp
+  CFW1GlyphAtlas.cpp
+  CFW1GlyphAtlasInterface.cpp
+  CFW1GlyphProvider.cpp
+  CFW1GlyphProviderInterface.cpp
+  CFW1GlyphRenderStates.cpp
+C:\AssortRock\Source\AR33\Dirextx\Student\GJH\Portfolio\ThirdParty\FW1FontWrapper-master\FW1FontWrapper\Source\CFW1GlyphRenderStates.cpp(682,22): warning C4456: 'hResult' 선언은 이전 로컬 선언을 숨깁니다.
+C:\AssortRock\Source\AR33\Dirextx\Student\GJH\Portfolio\ThirdParty\FW1FontWrapper-master\FW1FontWrapper\Source\CFW1GlyphRenderStates.cpp(654,10): message : 'hResult' 선언을 참조하십시오.
+  CFW1GlyphRenderStatesInterface.cpp
+  CFW1GlyphSheet.cpp
+  CFW1GlyphSheetInterface.cpp
+  CFW1GlyphVertexDrawer.cpp
+  CFW1GlyphVertexDrawerInterface.cpp
+  CFW1StateSaver.cpp
+  CFW1TextGeometry.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  CFW1TextGeometryInterface.cpp
+  CFW1TextRenderer.cpp
+  CFW1TextRendererInterface.cpp
+  FW1FontWrapper.cpp
+  코드를 생성하고 있습니다...
+     ..\..\Build\Debug\x64\FW1FontWrapper.lib 라이브러리 및 ..\..\Build\Debug\x64\FW1FontWrapper.exp 개체를 생성하고 있습니다.
+  FW1FontWrapper.vcxproj -> C:\AssortRock\Source\AR33\Dirextx\Student\GJH\Portfolio\ThirdParty\Build\Debug\x64\FW1FontWrapper.dll
