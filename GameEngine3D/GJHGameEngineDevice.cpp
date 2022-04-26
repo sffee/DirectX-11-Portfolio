@@ -273,7 +273,7 @@ void GJHGameEngineDevice::ClearRenderingPipeLine()
 void GJHGameEngineDevice::ResourceLoading()
 {
 	GJHGameEngineDirectory NewDir;
-	NewDir.MoveParent(L"Portfolio");
+	NewDir.MoveUp();
 	NewDir.Move(L"EngineRes");
 	auto Arr = NewDir.AllFile(L"*.png");
 

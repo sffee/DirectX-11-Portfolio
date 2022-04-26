@@ -106,7 +106,7 @@ void StageBase::Start(const GJHGameEngineString& _MapFileName)
 void StageBase::CreateMap(const GJHGameEngineString& _MapFileName)
 {
 	GJHGameEngineDirectory NewDir;
-	NewDir.MoveParent(L"Portfolio");
+	NewDir.MoveUp();
 	NewDir.Move(L"Resources");
 	NewDir.Move(L"MapData");
 

@@ -54,7 +54,7 @@ MapEditorWindow::MapEditorWindow() :
 {
 	{
 		GJHGameEngineDirectory NewDir;
-		NewDir.MoveParent(L"Portfolio");
+		NewDir.MoveUp();
 		NewDir.Move(L"Resources");
 		NewDir.Move(L"Texture");
 		NewDir.Move(L"Map");
@@ -73,7 +73,7 @@ MapEditorWindow::MapEditorWindow() :
 
 	{
 		GJHGameEngineDirectory NewDir;
-		NewDir.MoveParent(L"Portfolio");
+		NewDir.MoveUp();
 		NewDir.Move(L"Resources");
 		NewDir.Move(L"Texture");
 		NewDir.Move(L"Map");
@@ -90,7 +90,7 @@ MapEditorWindow::MapEditorWindow() :
 
 	{
 		GJHGameEngineDirectory NewDir;
-		NewDir.MoveParent(L"Portfolio");
+		NewDir.MoveUp();
 		NewDir.Move(L"Resources");
 		NewDir.Move(L"Texture");
 		NewDir.Move(L"Map");
@@ -107,7 +107,7 @@ MapEditorWindow::MapEditorWindow() :
 
 	{
 		GJHGameEngineDirectory NewDir;
-		NewDir.MoveParent(L"Portfolio");
+		NewDir.MoveUp();
 		NewDir.Move(L"Resources");
 		NewDir.Move(L"Texture");
 		NewDir.Move(L"Map");
@@ -809,7 +809,7 @@ void MapEditorWindow::SaveFileLoading()
 		m_SaveFileVec.clear();
 		
 		GJHGameEngineDirectory NewDir;
-		NewDir.MoveParent(L"Portfolio");
+		NewDir.MoveUp();
 		NewDir.Move(L"Resources");
 		NewDir.Move(L"MapData");
 

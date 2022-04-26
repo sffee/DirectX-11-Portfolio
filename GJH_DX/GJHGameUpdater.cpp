@@ -36,7 +36,7 @@ void GJHGameUpdater::ResourceLoading()
 {
 	{
 		GJHGameEngineDirectory NewDir;
-		NewDir.MoveParent(L"Portfolio");
+		NewDir.MoveUp();
 		NewDir.Move(L"Resources");
 		NewDir.Move(L"Texture");
 
@@ -50,7 +50,7 @@ void GJHGameUpdater::ResourceLoading()
 
 	{
 		GJHGameEngineDirectory NewDir;
-		NewDir.MoveParent(L"Portfolio");
+		NewDir.MoveUp();
 		NewDir.Move(L"Resources");
 		NewDir.Move(L"Sound");
 

@@ -113,3 +113,8 @@ GJHGameEngineString GJHGameEngineDirectory::PlusFilePath(const GJHGameEngineStri
 {
 	return m_PathStr + _FileName;
 }
+
+void GJHGameEngineDirectory::MoveUp()
+{
+	MoveParent();
+}

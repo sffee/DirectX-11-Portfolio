@@ -15,6 +15,7 @@ public:
 	void MoveParent();
 	void MoveParent(const GJHGameEngineString& _ParentName);
 	void Move(const GJHGameEngineString& _ParentName);
+	void MoveUp();
 
 	GJHGameEngineString PlusFilePath(const GJHGameEngineString& _FileName);
 

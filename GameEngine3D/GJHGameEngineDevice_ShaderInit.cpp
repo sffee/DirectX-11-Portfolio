@@ -91,7 +91,7 @@ void TargetShader(GJHGameEngineDirectory& Dir)
 void GJHGameEngineDevice::ShaderInit()
 {
 	GJHGameEngineDirectory Dir;
-	Dir.MoveParent(L"Portfolio");
+	Dir.MoveUp();
 	Dir.Move(L"ShaderProject");
 
 	Shader3D(Dir);
